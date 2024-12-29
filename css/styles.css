@@ -328,7 +328,6 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
   }
-
   .list-descr {
     flex-basis: calc((100% - 72px) / 2);
   }
@@ -341,7 +340,6 @@ a {
   .name-descr {
     font-weight: 700;
     font-size: 36px;
-    text-align: center;
   }
   .text-descr {
     font-weight: 500;
@@ -353,6 +351,11 @@ a {
   }
   .list-descr {
     flex-basis: calc((100% - 72px) / 4);
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .name-descr {
+    text-align: center;
   }
 }
 /* #endregion descr */
